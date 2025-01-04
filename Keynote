@@ -1,0 +1,7 @@
+What is any ?
+ - it could store any type of variable and it is copyable.
+What is variant?
+- it could store specific type of variable.
+What's con of function ?
+  - more readable
+  - more flexable than func pointer.(lambda, function).
