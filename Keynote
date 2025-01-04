@@ -1,7 +1,16 @@
-What is any ?
+*What is any ?
  - it could store any type of variable and it is copyable.
-What is variant?
+
+// --- Example functions ---
+
+int addInts(const std::vector<std::any>& params) {
+    return std::any_cast<int>(params[0]) + std::any_cast<int>(params[1]);
+}
+ref: https://kheresy.wordpress.com/2017/10/16/cpp17-variant/
+
+*What is variant?
 - it could store specific type of variable.
-What's con of function ?
+
+*What's con of function ?
   - more readable
   - more flexable than func pointer.(lambda, function).
